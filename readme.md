@@ -31,7 +31,7 @@ The purpose is to gain practical knowledge of how to set up services on linux se
 
 ### Required tools
 
-These tools needs to be available on your local machine. If you need help on using a commando in Linux you can always use the `man` command. 
+These tools needs to be available on your local machine. If you need help on using a commando in Linux you can always use the `man` command.
 
 ```bash
 > man tar
@@ -525,9 +525,9 @@ In this step, we are going to add some tools that runs static code analysis on t
    ```
 
    ESLint can then be invoked by running `npm run lint` in the repository root.
-   
+
    If you get linting errors, it is probably due to bad configuration. Make sure the `env` part of the configuration is defined as:
-   
+
    ```
    "env": {
      "commonjs": true,
